@@ -92,13 +92,13 @@ function buildSlider(){
 		"</div>";	
 		
 	}
-	
+	if(typeof document!="undefined"){
 	// Print our HTML to the web page
-	global.window.document.getElementById("mySlider").innerHTML = myHTML;
+	document.getElementById("mySlider").innerHTML = myHTML;
 		
 	// Display the first slide
-	global.window.document.getElementById("slide" + currentSlideIndex).style.left = 0;
-
+	document.getElementById("slide" + currentSlideIndex).style.left = 0;
+	}
 }
 
 // Create our slider
