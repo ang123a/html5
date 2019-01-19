@@ -37,8 +37,8 @@
 <button onclick="startWorker1()">StartWorker1</button>
 <div id="mySlider"></div>
 		<div id="sliderNav">
-			<div id="sliderPrev" onclick="prevSlide();"><img src="images/prev-btn.png"></div>
-			<div id="sliderNext" onclick="nextSlide();"><img src="images/next-btn.png"></div>
+			<div id="sliderPrev" onclick="w.postMessage(prevSlide());"><img src="images/prev-btn.png"></div>
+			<div id="sliderNext" onclick="w.postMessage(nextSlide());"><img src="images/next-btn.png"></div>
 		</div>
 <!--Javascript library script-->
 <script>
