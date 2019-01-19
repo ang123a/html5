@@ -57,7 +57,7 @@ var bigBang = new Slide(
 	"The Big Bang Theory", 
 	"A show about Sheldon", 
 	"https://www.google.ro/search?q=brand+images&tbm=isch&source=iu&ictx=1&fir=kg5-NJEQVswq5M%253A%252CNcBqCAjiKCR-DM%252C_&usg=AI4_-kTa4ADhEmvXVQSy6Qvs1lRqFWX24w&sa=X&ved=2ahUKEwiLqPSh5vnfAhXJyKQKHWUMAxEQ9QEwAnoECAQQCA#imgrc=_athfDorkAI3_M:"
-
+)
 var LastMan = new Slide(
 	"The Last Man on Earth", 
 	"A show about loneliness", 
