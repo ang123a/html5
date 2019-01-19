@@ -153,7 +153,7 @@ function nextSlide(){
 		// Otherwise the next slide is the current one plus 1
 		nextSlideIndex = currentSlideIndex + 1;
 	}	
-	
+	if(typeof document!="undefined"){
 	// Setup the next slide and current slide for animations
 	document.getElementById("slide" + nextSlideIndex).style.left = "100%";
 	document.getElementById("slide" + currentSlideIndex).style.left = 0;
@@ -161,7 +161,7 @@ function nextSlide(){
 	// Add the appropriate animation class to the slide
 	document.getElementById("slide" + nextSlideIndex).setAttribute("class", "singleSlide slideInRight");
 	document.getElementById("slide" + currentSlideIndex).setAttribute("class", "singleSlide slideOutLeft");
-	
+	}
 	// Set current slide to the new current slide
 	currentSlideIndex = nextSlideIndex;
 }
