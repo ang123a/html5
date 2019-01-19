@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="stylesheet" href="main.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	       <script src="worker1.js"></script>
 </head>
 
 <nav>
@@ -37,8 +38,8 @@
 <button onclick="startWorker1()">StartWorker1</button>
 <div id="mySlider"></div>
 		<div id="sliderNav">
-			<div id="sliderPrev" onclick="w.postMessage(prevSlide());"><img src="images/prev-btn.png"></div>
-			<div id="sliderNext" onclick="w.postMessage(nextSlide());"><img src="images/next-btn.png"></div>
+			<div id="sliderPrev" onclick="prevSlider();"><img src="images/prev-btn.png"></div>
+			<div id="sliderNext" onclick="nextSlider();"><img src="images/next-btn.png"></div>
 		</div>
 <!--Javascript library script-->
 <script>
