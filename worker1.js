@@ -94,10 +94,10 @@ function buildSlider(){
 	}
 	
 	// Print our HTML to the web page
-	document.getElementById("mySlider").innerHTML = myHTML;
+	window.document.getElementById("mySlider").innerHTML = myHTML;
 		
 	// Display the first slide
-	document.getElementById("slide" + currentSlideIndex).style.left = 0;
+	window.document.getElementById("slide" + currentSlideIndex).style.left = 0;
 
 }
 
