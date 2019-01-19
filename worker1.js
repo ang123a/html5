@@ -73,7 +73,7 @@ var LastMan = new Slide(
 -----------------------------------------------------------------
 -----------------------------------------------------------------*/
 
-
+window.addEventListener('load', buildSlider, false);
 
 function buildSlider(){
 	// A variable to hold all our HTML
