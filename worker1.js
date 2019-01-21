@@ -92,7 +92,7 @@ function buildSlider(){
 		"</div>";	
 		
 	}
-	if(typeof document!="undefined"){
+     window.onload=function(){
 	
 	// Print our HTML to the web page
 	document.getElementById("mySlider").innerHTML = myHTML;
@@ -100,6 +100,7 @@ function buildSlider(){
 	// Display the first slide
 	document.getElementById("slide" + currentSlideIndex).style.left = 0;
 	}
+}
 }
 
 // Create our slider
